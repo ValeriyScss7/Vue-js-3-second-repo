@@ -602,7 +602,7 @@
                 </div>
 
                 <div class="footerMobile__wrap__item item--address">
-                    <span>Контакты</span>
+                    <span>Contacts</span>
                     <ul>
                         <li>Kyiv<br> street,Nizhniy val, 37</li>
                         <li>Daily:<br> 11:00/21:00</li>
