@@ -1,0 +1,218 @@
+@import url(./about.scss);
+* {
+  font-family: "futura";
+}
+* h1,
+* h2,
+* h3,
+* h4,
+* h5,
+* h6,
+* p,
+* span {
+  margin: 0;
+  padding: 0;
+}
+* a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "sunday";
+  src: url(./font/sundaybestrusbyalince.otf);
+}
+@font-face {
+  font-family: "futura";
+  src: url(./font/FuturaPT-Medium.ttf);
+}
+header .header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header__wrap p {
+  cursor: pointer;
+  font-family: "sunday";
+  font-size: 13px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+header .header__wrap p::after {
+  content: "";
+  background: url(./img/sun-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  width: 82px;
+  height: 25px;
+  display: block;
+}
+header .header__wrap p:hover {
+  color: #FFCC33;
+  transition: 1s;
+}
+header .header__wrap a {
+  font-family: "sunday";
+  font-size: 13px;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 15px;
+  border-radius: 15px;
+}
+header .header__wrap a:hover {
+  background: #FFCC33;
+  transition: 1s;
+}
+
+.portfolio .heading {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio .heading h1 {
+  font-family: "sunday";
+  font-size: 48px;
+  text-align: center;
+}
+.portfolio .heading .description {
+  font-size: 30px;
+  max-width: 600px;
+  text-align: center;
+  margin-top: 10px;
+  position: relative;
+}
+.portfolio .heading .description::after {
+  content: "";
+  background: url(./img/icons8-orange-juice-48.png);
+  background-repeat: no-repeat;
+  width: 90px;
+  height: 48px;
+  display: block;
+  position: absolute;
+  top: 35%;
+  right: -4%;
+}
+.portfolio__projects h2 {
+  font-family: "sunday";
+  font-size: 25px;
+  text-align: center;
+  margin-top: 40px;
+}
+.portfolio__projects .cardbox {
+  align-items: center;
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio__projects .cardbox__project {
+  cursor: pointer;
+  position: relative;
+}
+.portfolio__projects .cardbox__project img {
+  width: 300px;
+  border-radius: 15px;
+  height: 445px;
+}
+.portfolio__projects .cardbox__project .overlay {
+  opacity: 0;
+  position: absolute;
+  top: 3%;
+}
+.portfolio__projects .cardbox__project .overlay .content {
+  width: 300px;
+  color: orange;
+}
+.portfolio__projects .cardbox__project .overlay .content h3 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 5%;
+}
+.portfolio__projects .cardbox__project .overlay .content .pageList {
+  margin-bottom: 10px;
+}
+.portfolio__projects .cardbox__project .overlay .content span {
+  color: white;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  margin-left: 3%;
+  text-align: center;
+}
+.portfolio__projects .cardbox__project h4 {
+  text-align: center;
+  font-size: 25px;
+  padding: 10px 15px;
+  border: 3px solid black;
+  border-radius: 15px;
+  color: #dc143c;
+}
+.portfolio__projects .cardbox__project h4:hover {
+  background: #fda3c4;
+  transition: 1s;
+}
+.portfolio__projects .cardbox .top:hover img {
+  filter: brightness(30%);
+  transition: 0.5s;
+}
+.portfolio__projects .cardbox .top:hover .overlay {
+  opacity: 1;
+  transition: 1s;
+}
+.portfolio__projects .cardbox .bottom {
+  margin-top: 2%;
+}
+.portfolio__projects .cardbox .top--harmony {
+  border-radius: 15px;
+}
+.portfolio__projects .cardbox .top--harmony .harmony {
+  background: linear-gradient(158.72deg, #CFAFFF 0%, #A6C6D1 100%);
+}
+.portfolio__projects .cardbox .bottom--harmony h4:hover {
+  background: #5DCFF9;
+}
+.portfolio__projects .cardbox .bottom--nft h4:hover {
+  background: #A6C6D1;
+}
+.portfolio__projects .cardbox .bottom--hydrocycles h4:hover {
+  background: #16d397;
+}
+.portfolio__projects .cardbox .bottom--xbox h4:hover {
+  background: #8dd83d;
+}
+.portfolio__projects .cardbox .bottom--attor h4:hover {
+  background: #d1b06b;
+}
+.portfolio__projects .cardbox .bottom--indonesia h4:hover {
+  background: #FFCC33;
+}
+.portfolio__projects .cardbox .bottom--onlineStore h4:hover {
+  background: white;
+}
+.portfolio__projects .cardbox .nftmarket {
+  height: 445px;
+}
+.portfolio__projects .cardbox .hydrocycle {
+  height: 445px;
+  background: #ffffff;
+  border: 3px solid #dc143c;
+}
+.portfolio .goodbye {
+  margin-top: 40px;
+}
+.portfolio .goodbye h6 {
+  font-family: "sunday";
+  font-size: 48px;
+  text-align: center;
+}
+.portfolio .goodbye p {
+  text-align: center;
+  font-size: 30px;
+}/*# sourceMappingURL=style.css.map */
