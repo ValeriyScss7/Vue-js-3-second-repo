@@ -51,7 +51,7 @@
                             </div>
 
                             <div class="bottom">
-                                <a href="https://lord-html-booriva-shop.vercel.app">
+                                <a href="https://lord-html-booriva-shop.vercel.app" target="_blank">
                                     <h4>Booriva Store</h4>
                                 </a>
                             </div>
@@ -79,7 +79,7 @@
                             </div>
 
                             <div class="bottom bottom--harmony">
-                                <a href="https://lord-html-harmony-shop.vercel.app">
+                                <a href="https://lord-html-harmony-shop.vercel.app" target="_blank">
                                     <h4>Wave Harmony Store</h4>
                                 </a>
                             </div>
@@ -104,7 +104,7 @@
                             </div>
 
                             <div class="bottom bottom--nft">
-                                <a href="https://lord-html-nft-market.vercel.app">
+                                <a href="https://lord-html-nft-market.vercel.app" target="_blank">
                                     <h4>Nft-Market</h4>
                                 </a>
 
@@ -126,7 +126,7 @@
                             </div>
 
                             <div class="bottom bottom--indonesia">
-                                <a href="https://lord-html-indonesia-landing.vercel.app">
+                                <a href="https://lord-html-indonesia-landing.vercel.app" target="_blank">
                                     <h4>Indonesia</h4>
                                 </a>
 
@@ -154,7 +154,7 @@
                             </div>
 
                             <div class="bottom bottom--xbox">
-                                <a href="https://lord-html-xbox-landing.vercel.app">
+                                <a href="https://lord-html-xbox-landing.vercel.app" target="_blank">
                                     <h4>Xbox-landing</h4>
                                 </a>
 
@@ -178,7 +178,7 @@
                             </div>
 
                             <div class="bottom bottom--attor">
-                                <a href="https://lord-html-atteurneyster.vercel.app">
+                                <a href="https://lord-html-atteurneyster.vercel.app" target="_blank">
                                     <h4>Attourneyster</h4>
                                 </a>
 
@@ -208,7 +208,7 @@
                             </div>
 
                             <div class="bottom bottom--hydrocycles">
-                                <a href="https://lord-html-hydrocycles-shop.vercel.app">
+                                <a href="https://lord-html-hydrocycles-shop.vercel.app" target="_blank">
                                     <h4>Hydrocycles Store</h4>
                                 </a>
                             </div>
@@ -240,7 +240,7 @@
                             </div>
 
                             <div class="bottom bottom--onlineStore">
-                                <a href="https://lord-html-learning-project-geekbrains.vercel.app/">
+                                <a href="https://lord-html-learning-project-geekbrains.vercel.app/" target="_blank">
                                     <h4>Online Store</h4>
                                 </a>
 
