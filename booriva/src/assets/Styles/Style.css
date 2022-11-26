@@ -303,6 +303,11 @@ main {
   display: grid;
   align-items: flex-end;
 }
+.clothingPresentation__wrap__left .item--one span {
+  display: block;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
 .clothingPresentation__wrap__left .content--one {
   background-image: url(../img/Item\ presentation1.png);
   background-repeat: no-repeat;
@@ -343,8 +348,8 @@ main {
 .clothingPresentation__wrap__left__bottom .content--two span {
   transform: matrix(0.63, -0.77, 0.77, 0.63, 0, 0) !important;
   max-width: 46px;
-  margin-bottom: 25%;
-  margin-right: 10%;
+  margin-bottom: 13%;
+  margin-right: 17%;
 }
 .clothingPresentation__wrap__left__bottom .item--three {
   background: url(../img/верх.png);
@@ -354,6 +359,10 @@ main {
   position: relative;
   background-size: cover;
   margin-top: 15px;
+}
+.clothingPresentation__wrap__left__bottom .item--three span {
+  display: block;
+  margin-top: 3px;
 }
 .clothingPresentation__wrap__left__bottom .content--three {
   background: url(../img/Item\ presentation3.png);
@@ -391,6 +400,9 @@ main {
   display: grid;
   align-items: center;
 }
+.clothingPresentation__wrap__right__top .item--one span {
+  margin-top: 5px;
+}
 .clothingPresentation__wrap__right__top .content--one {
   background: url(../img/Item\ presentation4.png);
   background-repeat: no-repeat;
@@ -408,6 +420,9 @@ main {
   min-height: 296px;
   display: grid;
   align-items: end;
+}
+.clothingPresentation__wrap__right__top .item--two span {
+  margin-top: 4px;
 }
 .clothingPresentation__wrap__right__top .content--two {
   background: url(../img/Item\ presentation5.png);
@@ -465,6 +480,7 @@ main {
 .novelties__wrap__heading__text {
   position: absolute;
   top: 68%;
+  left: 5px;
 }
 .novelties__wrap__heading__text span {
   font-family: "Montserrat";
@@ -518,7 +534,7 @@ main {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 29px;
   font-feature-settings: "tnum" on, "lnum" on;
   color: #FDA3C4;
@@ -526,7 +542,7 @@ main {
 .novelties__wrap__button {
   display: flex;
   justify-content: center;
-  padding-top: 55px;
+  padding-top: 30px;
 }
 .novelties__wrap__button a {
   background: url(../img/Button1.png);
@@ -603,8 +619,8 @@ main {
   display: flex;
   flex-direction: column;
   position: absolute;
-  left: 5%;
-  bottom: 12%;
+  left: 8%;
+  bottom: 12.2%;
 }
 .boorivaLocation__wrap__smallText span {
   font-family: "Montserrat";
@@ -701,7 +717,7 @@ main {
   padding: 14px 0 14px;
   display: flex;
   gap: 10%;
-  width: 1500px;
+  width: 100vw;
 }
 .topProducts__wrap__content span {
   font-family: "Montserrat";
@@ -949,7 +965,7 @@ main {
 }
 .suits .suits__wrap__items .item--4 {
   grid-template-columns: 40% 40%;
-  background-image: url(../img/suits4.png);
+  background-image: url(../img/suits4.svg);
   background-repeat: no-repeat;
 }
 .suits .suits__wrap__items .item--4 .suits__wrap__items__item__contentTop {
@@ -1119,7 +1135,7 @@ main {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-  font-size: 42px;
+  font-size: 57px;
   line-height: 51px;
   color: #F40000;
 }
@@ -1127,11 +1143,12 @@ main {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 20px;
   color: #1F1F1F;
   max-width: 276px;
   margin-left: 100px;
+  margin-top: 6px;
 }
 
 footer {
@@ -1184,6 +1201,9 @@ footer .footer__wrap__item ul li:first-child {
 footer .footer__wrap__item ul li:last-child {
   margin-bottom: 0;
 }
+footer .footer__wrap__item:not(:first-child) {
+  margin-top: 5%;
+}
 footer .footer__wrap .item--social .images {
   margin-top: 20px;
 }
@@ -1193,7 +1213,7 @@ footer .footer__wrap .item--social .images img {
 footer .item--feedback {
   display: flex;
   align-items: flex-start;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 footer .item--feedback img {
   margin-right: 31px;
@@ -1204,7 +1224,7 @@ footer .item--feedback .footer__wrap__item__text p {
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  max-width: 130px;
+  max-width: 125px;
   color: #FFFFFF;
 }
 footer .item--feedback .footer__wrap__item__text p:last-child {
@@ -1229,6 +1249,18 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
     margin-left: 2%;
   }
 }
+@media (max-width: 1300px) {
+  .novelties__wrap__cardbox {
+    display: flex;
+    gap: 1%;
+  }
+  .novelties__wrap__cardbox__card {
+    max-width: 300px;
+  }
+  .novelties__wrap__cardbox__card .mainImg {
+    width: 100%;
+  }
+}
 @media (max-width: 1180px) {
   .header__wrap__bottom {
     gap: 6.5%;
@@ -1245,6 +1277,9 @@ footer .item--feedback .footer__wrap__item__text p:last-child {
   .instagram__wrap {
     display: grid;
     grid-template-columns: 34% 33% 34%;
+  }
+  .instagram__wrap__right h3 {
+    font-size: 54px;
   }
 }
 @media (max-width: 1123px) {

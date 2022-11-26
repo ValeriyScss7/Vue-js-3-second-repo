@@ -9,10 +9,10 @@
 @import url(./OrderMakingStyle.scss);
 @import url(./productStyle.scss);
 *{ 
-
 text-decoration: none;
 
 font-family: 'Montserrat';
+
 
 
 h1,h2,h3,h4,h5,h6,p{
@@ -365,6 +365,11 @@ main{
                 min-height: 345px;
                 display: grid;
                 align-items: flex-end;
+                & span{
+                    display: block;
+                    margin-right: 5px;
+                    margin-bottom: 5px;
+                }
             }
 
             
@@ -410,8 +415,8 @@ main{
                     & span{
                         transform: matrix(0.63, -0.77, 0.77, 0.63, 0, 0)!important;
                         max-width: 46px;
-                        margin-bottom: 25%;
-                        margin-right: 10%;
+                        margin-bottom: 13%;
+                        margin-right: 17%;
                     }
                 }
     
@@ -423,6 +428,10 @@ main{
                     position: relative;
                     background-size: cover;
                     margin-top: 15px;
+                    & span{
+                        display: block;
+                        margin-top: 3px;
+                    }
                 }
     
                 & .content--three{
@@ -468,6 +477,9 @@ main{
                     min-height: 296px;
                     display: grid;
                     align-items: center;
+                    & span{
+                        margin-top: 5px;
+                    }
                 }
 
                 & .content--one{
@@ -488,6 +500,9 @@ main{
                     min-height: 296px;
                     display: grid;
                     align-items: end;
+                    & span{
+                        margin-top: 4px;
+                    }
                 }
 
                 & .content--two{
@@ -554,6 +569,7 @@ main{
             &__text{
                 position: absolute;
                 top: 68%;
+                left: 5px;
                 & span{
                     font-family: 'Montserrat';
                     font-style: normal;
@@ -609,7 +625,7 @@ main{
                         font-family: 'Montserrat';
                         font-style: normal;
                         font-weight: 700;
-                        font-size: 24px;
+                        font-size: 18px;
                         line-height: 29px;
                         font-feature-settings: 'tnum' on, 'lnum' on;
                         color: #FDA3C4;
@@ -625,7 +641,7 @@ main{
         &__button{
             display: flex;
             justify-content: center;
-            padding-top: 55px;
+            padding-top: 30px;
             & a{
                 background: url(../img/Button1.png);
                 background-repeat: no-repeat;
@@ -706,8 +722,8 @@ main{
             display: flex;
             flex-direction: column;
             position: absolute;
-            left: 5%;
-            bottom: 12%;
+            left: 8%;
+            bottom: 12.2%;
             & span{
                 font-family: 'Montserrat';
                 font-style: normal;
@@ -818,7 +834,7 @@ main{
             padding: 14px 0 14px;
             display: flex;
             gap: 10%;
-            width: 1500px;
+            width: 100vw;
             & span{
                 font-family: 'Montserrat';
                 font-style: normal;
@@ -1093,7 +1109,7 @@ main{
 
         & .item--4{
             grid-template-columns: 40% 40%;
-            background-image: url(../img/suits4.png);
+            background-image: url(../img/suits4.svg);
             background-repeat: no-repeat;
             & .suits__wrap__items__item__contentTop{
                 background: url(../img/SuitsRight.png);
@@ -1291,7 +1307,7 @@ main{
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 600;
-                font-size: 42px;
+                font-size: 57px;
                 line-height: 51px;
                 color: #F40000;
             }
@@ -1300,11 +1316,12 @@ main{
                 font-family: 'Montserrat';
                 font-style: normal;
                 font-weight: 400;
-                font-size: 16px;
+                font-size: 20px;
                 line-height: 20px;
                 color: #1F1F1F;
                 max-width: 276px;
                 margin-left: 100px;
+                margin-top: 6px;
             }
         }
     }
@@ -1368,6 +1385,10 @@ footer{
             }
         }
 
+        &__item:not(:first-child){
+            margin-top: 5%;
+        }
+
         
 
         & .item--social{
@@ -1386,7 +1407,7 @@ footer{
         & .item--feedback{
             display: flex;
             align-items: flex-start;
-            margin-top: 10%;
+            margin-top: 5%;
             & img{
                 margin-right:31px ;
             }
@@ -1398,7 +1419,7 @@ footer{
                     font-weight: 400;
                     font-size: 12px;
                     line-height: 15px;
-                    max-width: 130px;
+                    max-width: 125px;
                     color: #FFFFFF;
                 }
     
@@ -1434,6 +1455,22 @@ footer{
     }
 }
 
+@media(max-width:1300px){
+    .novelties{
+        &__wrap{
+            &__cardbox{
+                display: flex;
+                gap: 1%;
+                &__card{
+                    max-width: 300px;
+                    & .mainImg{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
 
 @media(max-width:1180px) {
     .header__wrap {
@@ -1463,6 +1500,11 @@ footer{
     .instagram__wrap {
         display: grid;
         grid-template-columns: 34% 33% 34%;
+        &__right{
+            & h3{
+                font-size: 54px;
+            }
+        }
     }
 }
 

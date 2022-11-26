@@ -123,7 +123,7 @@
                             </div>
                             <div class="item item--three">
                                 <div class="content content--three">
-                                    <span>Outerwear</span>
+                                    <span>Overdress</span>
                                 </div>
                             </div>
                         </div>
@@ -324,7 +324,7 @@
 
                     <img src="../assets/img/ArrowBeautyX2.svg" alt="img" class="arrowBottomTwo">
 
-                    <img src="../assets/img/YandexCard.png" alt="" class="yandex">
+                    <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ab1ab620f12640ba9fce5757f4ffb9284a7ec51be186c17bc8fe9e87153cee5e9&amp;source=constructor"  class='yandex' width="320" height="251" lang='en_US' frameborder="0"></iframe>
 
                     <div class="boorivaLocation__wrap__button">
                         <a href="#">plot your route now</a>
@@ -339,7 +339,7 @@
 
             <section class="topProducts">
                 <div class="scroll">
-                    <marquee scrollamount="15" direction="right" class="containerNovelties topProducts__wrap">
+                    <marquee scrollamount="15" direction="right" class="topProducts__wrap">
                         <div class="topProducts__wrap__content">
                             <span>Top Products</span>
                             <span>Top Products</span>
