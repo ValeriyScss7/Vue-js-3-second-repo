@@ -178,7 +178,7 @@
                             </div>
 
                             <div class="bottom bottom--attor">
-                                <a href="https://lord-html-atteurneyster.vercel.app" target="_blank">
+                                <a href="https://lord-html-attourneyster.vercel.app" target="_blank">
                                     <h4>Attourneyster</h4>
                                 </a>
 
