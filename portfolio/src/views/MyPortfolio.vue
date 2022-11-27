@@ -62,7 +62,7 @@
                         <div class="cardbox__project">
 
                             <div class="top top--harmony">
-                                <img class="harmony" src="../assets/img/review_5_full.jpg" alt="imageHarmony">
+                                <img class="harmony" src="../assets/img/surfpussy.jpg" alt="imageHarmony">
 
                                 <div class="overlay">
 
@@ -90,7 +90,7 @@
                         <div class="cardbox__project">
 
                             <div class="top">
-                                <img class='nftmarket' src="../assets/img/1_wFuoaESuck8qKj3KXbPdfQ.jpeg" alt="">
+                                <img class='nftmarket' src="../assets/img/nftt.jpg" alt="">
 
                                 <div class="overlay">
 
@@ -114,7 +114,7 @@
                         <div class="cardbox__project">
 
                             <div class="top">
-                                <img src="../assets/img/borobubur-sunset.jpg" alt="">
+                                <img src="../assets/img/indo.jpg" alt="">
 
                                 <div class="overlay">
 
@@ -138,7 +138,7 @@
                         <div class="cardbox__project">
 
                             <div class="top">
-                                <img src="../assets/img/xbox.png" alt="">
+                                <img src="../assets/img/boxic.jpg" alt="">
 
                                 <div class="overlay">
 
@@ -166,7 +166,7 @@
                         <div class="cardbox__project">
 
                             <div class="top">
-                                <img src="../assets/img/historyBackground.png" alt="">
+                                <img src="../assets/img/law.jpg" alt="imageLaw">
 
                                 <div class="overlay">
 
@@ -190,7 +190,7 @@
                         <div class="cardbox__project">
 
                             <div class="top">
-                                <img class="hydrocycle" src="../assets/img/hydrocycle.png" alt="">
+                                <img class="hydrocycle" src="../assets/img/hydra.jpg" alt="">
 
                                 <div class="overlay">
 
@@ -219,7 +219,7 @@
                         <div class="cardbox__project">
 
                             <div class="top">
-                                <img src="../assets/img/Slyder_phone.png" alt="">
+                                <img src="../assets/img/slyder.jpg" alt="">
 
                                 <div class="overlay">
 
